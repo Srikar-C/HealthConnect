@@ -1,0 +1,22 @@
+.d-block{
+    border-radius:20px;
+    height:500px;
+}
+
+@media (width<=450px){
+    .d-block{
+        height: 300px;
+        width: 450px;
+    }
+    .sub-slides h4{
+        font-size: 12px;
+    }
+    .sub-slides h2{
+        font-size: 16px;
+    }
+}
+
+.sub-slides{
+    align-items:center;
+    justify-content:center;
+}

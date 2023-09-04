@@ -1,0 +1,123 @@
+.boxes{
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 3px;
+  height: 250px;
+  background-color:black;
+  border-radius:10%;
+  width: 250px;
+  margin: 10% 0px;
+}
+.boxes:hover{
+  background:radial-gradient(#AEC3AE,#0f5579);
+  transform: scale(1.08);
+}
+
+.boxes p{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-decoration-line: none;
+  margin-top: 5px;
+}
+.boxes .img {
+  width: 150px;
+  height: 150px;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+  padding-top: 25px;
+  height: 30%;
+}
+.image-container img{
+  width:85%;
+  height: 500px;
+  border-radius: 5%;
+}
+.image-text h1{
+  flex-wrap: wrap;
+}
+.image-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 5%;
+  text-align: start;
+  margin-left: 15%;
+  width: 70%;
+  justify-content: center;
+}
+.image-text h1{
+  font-size: 200%;
+  flex-wrap: wrap;
+  line-height: 260%;
+  align-items: center;
+  margin-left: -2%;
+  justify-content: center;
+  margin-top: 2%;
+}
+.body-main {
+  width: 100%;
+  align-items: center;
+  background:linear-gradient(95deg,#E6FFFD,#AEE2FF,#ACBCFF,#B799FF);
+  padding:20px;
+}
+
+.body-middle{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5% 0px;
+}
+@media (width<=710px){
+  .image-text h1{
+    font-size: 200%;
+  }
+}
+@media (width<=600px){
+  .image-text h1{
+    font-size: 180%;
+  }
+}
+@media (width<=500px){
+  .image-text h1{
+    font-size: 160%;
+  }
+}
+@media (width<=450px){
+  .body-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxes{
+    margin: 20px 0px;
+  }
+  .image-container{
+    justify-content: center;
+  }
+  .image-container img{
+    width: 85%;
+    height: 300px;
+  }
+  .image-text h1{
+    font-size: 120%;
+  }
+} 
+@media (width<=425px){
+  .image-text h1{
+    font-size: 110%;
+  }
+}
+@media (width>280px)and (width<315px){
+  .image-text h1{
+    font-size: 100%;
+  }
+}
+

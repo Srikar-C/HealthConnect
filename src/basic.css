@@ -1,0 +1,10 @@
+Link{
+    text-decoration:none;
+}
+.menu{
+    display:flex;
+    flex-direction:column;
+}
+.menu-item{
+    margin:10px;
+}

@@ -1,0 +1,76 @@
+.det{
+    display:flex;
+}
+.booked-slots{
+    margin: 10px auto;
+    padding: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50%;
+}
+.profile-details form{
+    border-radius: 20px;
+}
+.profile-details h2{
+    margin: 0px 10px;
+}
+.profile-details{
+    display: flex;
+    flex-direction: row;
+}
+.slot-det{
+    text-align: start;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: aliceblue;
+}
+.profile-slot{
+    position:fixed;
+    background-color:grey;
+    color:white;
+    border:5px solid white;
+    text-align:center;
+    margin:10px;
+    height:fit-content;
+    width:fit-content;
+    padding:20px;
+}
+@media (width<=600px){
+    .profile-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-slot{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .profile-slot h2{
+        flex-wrap: wrap;
+    }
+    .booked-slots{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slot-det{
+        margin-left: -150px;
+    }
+    .booked-slots h1{
+        margin-left: -200px;
+    }
+}
+@media (width<=290px) and(width<=315px){
+    .profile-slot{
+        width: 300px;
+    }
+}

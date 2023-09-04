@@ -1,0 +1,62 @@
+.register{
+    border: 1px solid white;
+    width: fit-content;
+    margin: 80px auto;
+    padding: 20px 30px;
+    border-radius: 15px 50px 30px;
+    /* background-color: #B799FF; */
+    /* justify-content: center; */
+    align-items: justify;
+    background-color:whitesmoke;
+    /* text-align: center; */
+    /* background: radial-gradient(#A1CCD1,#A78295); */
+    box-shadow: 0px 1px 5px  grey;
+}
+.register button{
+    margin: 10px;
+    padding: 10px 30px;
+    margin-left: 55px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.register button:hover{
+    color: orange;
+}
+.details b{
+    font-size:25px;
+}
+
+
+.details{
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+
+.details input{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+}
+input[type=text] {
+    border-radius: 10px;
+    border: 2px #E6FFFD;
+}
+input[type=password] {
+    border-radius: 10px;
+    border: 2px #E6FFFD;
+}
+
+@media (width<=590px){
+    .register{
+        width: 80%;
+    }
+    .register button{
+        align-items: center;
+        justify-content: center;
+        margin-left: -1%;
+        width: 100%;
+    }
+}

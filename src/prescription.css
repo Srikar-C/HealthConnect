@@ -1,0 +1,134 @@
+.presc-main{
+    display: flex;
+    flex-direction: column;
+    height:5%;
+    width: 100%;
+    background:linear-gradient(18deg,#E6FFFD,#AEE2FF,#ACBCFF,#B799FF);
+  }
+
+  .presc-main h3{
+    text-align:center;
+    font-size:40px;
+    margin-top:5%;
+    margin-bottom:5%;
+    color: black;
+  }
+
+  .presc-form{
+    background-color: white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5%;
+  }
+  .presc-form input{
+    align-items: center;
+    margin-left: -75%;
+    width: 100%;
+  }
+  .presc-comment{
+    margin-left: -85%;
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    margin-bottom: 3%;
+  }
+  .presc-comment label{
+    width: 20%;
+    text-align: center;
+  }
+  .presc-comment textarea{
+    margin: 0px 10%;
+  }
+  .presc-comment button{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 0px 3%;
+    border-radius: 20px;
+  }
+  .presc-map{
+    width: fit-content;
+    height: 30%;
+    margin: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  .user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  .container img {
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+    border: 20px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+  }
+  
+  .container:hover .btn{
+    display: block;
+    background-color: black;
+  }
+  .container img:hover img{
+    box-shadow: inset 1px 1px 5px grey;
+    opacity: 20%;
+  }
+
+
+@media (width<=550px){
+  .presc-main h3{
+    font-size: 12px;
+  }
+  .presc-form input{
+    align-items: center;
+    margin-left: -20px;
+  }
+  
+  .presc-form{
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+  }
+  .presc-comment{
+    display: flex;
+    flex-direction: column;
+  }
+  .presc-comment textarea{
+    margin: 10px 0px;
+  }
+}

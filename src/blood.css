@@ -1,0 +1,44 @@
+.image{
+  float: right;
+}
+table, tr,th,td{
+  padding: 15px;
+  text-align: left;
+}
+.col{
+  text-align: center;
+}
+.color{
+  background-color: #A8DF8E;
+}
+.colora{
+  background-color: #96C291;
+}
+.colorb{
+  background-color: #FFC436;
+}
+.colorc{
+  background-color: #FF6969;
+}
+.colord{
+  background-color: #BB2525;
+}
+
+@media (width<=450px){
+  table{
+    width: 80%;
+    height: fit-content;
+    margin-left: -50px;
+  }
+
+  table th,td{
+    font-size: 10px;
+  }
+}
+
+@media (width>290px) and (width<=315px){
+  table{
+    width: 85%;
+    height: fit-content;
+  }
+}
