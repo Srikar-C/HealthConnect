@@ -5,8 +5,6 @@ import {
   ref,
   getDownloadURL,
   uploadBytesResumable,
-  getStorage,
-  list,
 } from "firebase/storage";
 import { useStateValue } from "./stateProvider";
 import { doc, updateDoc, arrayUnion,arrayRemove,getDoc  } from "firebase/firestore";
@@ -30,9 +28,7 @@ export default function HealthRecords() {
         
           setFiles(k);
       }
-      
     })
-   
   }, );
   function handleDownload(event) {
     event.preventDefault();
@@ -42,11 +38,9 @@ export default function HealthRecords() {
   {
     e.preventDefault();
     const file = e.target[0]?.files[0];
-
     if (!file) return;
     const storageRef = ref(storage, `${user.email}2/${file.name}`);
     const uploadTask = uploadBytesResumable(storageRef, file);
-
     uploadTask.on(
       "state_changed",
       (snapshot) => {
@@ -86,12 +80,12 @@ export default function HealthRecords() {
 
   return (
     <div className="records-main" >
-      <h3><b>Manage your health records, you can upload your health records or can download them.</b></h3>
+      <h1><b>Manage your health records, you can upload  your health records or can download them.</b></h1>
       <form className="records-form" onSubmit={handleSubmit}>
         <input type="file"/>
         <div className="records-comment">
-          <label onChange={handleLabel} value={lab}>Add a comment</label>
-          <textarea value={comment} onChange={e=>setComment(e.target.value)}  />
+          <h1 style={{color:"white"}}>Add a comment</h1>
+          <textarea value={comment} onChange={e=>setComment(e.target.value)} style={{marginBottom:"5px"}} />
           <button type="submit">Upload</button>
         </div>
       </form>
@@ -110,12 +104,12 @@ export default function HealthRecords() {
                 <img src={val.url} className="user-img" alt="photo" />
                 <button className="btn" value={val.url} onClick={handleDownload}>Download</button>
               </div>
-              <h4> updated on: {val.date}</h4>
-              <h4>comment : {val.comm}</h4> 
+             <p>updated on:</p> <h4>  {val.date}</h4>
+              <p>comment : </p><h4>{val.comm}</h4> 
             </div>
           );
         })}
-      </div>
+      </div>+
     </div>
   );
 }

@@ -51,6 +51,7 @@
   .btn {
     padding-top: 5px;
     display: flex;
+    flex-direction: row;
     
   }
   .slots{
@@ -110,12 +111,12 @@
   margin: 20px;
 }
 
-  @media (width<=450px){
-    .btn{
-      display: flex;
-      flex-direction: column;
+  @media (width<=550px){
+    .btnx{
+      display:grid;
+      grid-template-columns:  1fr 1fr 1fr 1fr;
       justify-self: center;
-      margin-left: 20%;
+      margin-left: 8%;
     }
     .card-wrapper{
       display: flex;

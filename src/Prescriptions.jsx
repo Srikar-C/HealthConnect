@@ -74,12 +74,14 @@ export default function User() {
 
   return (
     <div className="presc-main">
-      <h3><b>Manage your Perscriptions,you can upload your prescription records or can download them</b></h3>
+      <h1><b>Manage your prescriptions,you can upload  ur prescriptions  or can download them</b></h1 >
       <form  className="presc-form" onSubmit={handleSubmit}>
           <input type="file" />
           <div className="presc-comment">
-            <label>Add a comment</label>
-            <textarea value={comment}  onChange={e=>setComment(e.target.value)}  />
+          
+            <h1 style={{color:"white"}}>Add a comment</h1>
+            
+            <textarea value={comment}  onChange={e=>setComment(e.target.value)} style={{marginBottom:"5px"}} />
             <button type="submit">Upload</button>
           </div>
       </form>
@@ -99,8 +101,8 @@ export default function User() {
                 <img src={val.url} className="user-img" alt="photo" />
                 <button className="btn" value={val.url} onClick={handleDownload}>Download</button>
               </div>
-              <h4> updated on: {val.date}</h4>
-              <h4>comment : {val.comm}</h4> 
+             <p>updated on:</p> <h4>  {val.date}</h4>
+              <p>comment :</p><h4> {val.comm}</h4> 
           </div>
         );
       })}

@@ -1,4 +1,4 @@
- .card{
+.card{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,10 @@
     padding:0;
   }
 
-  @media (width<=450px){
+  @media (width<=550px){
+    .form{
+      width:300px;
+    }
     .goals-map{
       display: flex;
       flex-direction: column;

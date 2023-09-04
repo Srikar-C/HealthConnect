@@ -4,10 +4,8 @@ import { useStateValue } from "./stateProvider";
 import { doc, updateDoc, arrayUnion,arrayRemove  } from "firebase/firestore";
 import {db} from "./firebase.js";
 import {  getDoc } from "firebase/firestore";
-import { Line } from "react-chartjs-2";
+
 import { Chart as ChartJS, registerables } from 'chart.js';
-import { Chart } from 'react-chartjs-2'
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 export default  function Weight(){
@@ -16,8 +14,6 @@ export default  function Weight(){
  const [goal,setgoal]=useState("");
  const [goals,ugoals]=useState([]);
  const [wdate,uwdate]=useState([]);
- const [date,udate]=new useState("");
- ChartJS.register(...registerables);
  useEffect(()=>{
     
    getDoc(doc(db, "users", user.email)).then(docSnap => {
@@ -79,7 +75,7 @@ export default  function Weight(){
                 <div className="note">
                   <h3>{g}</h3>
                   <p>created on:{wdate[idx]}</p>
-                  <IconButton className="my-btn" data1={g} onClick={removegoal} aria-label="delete"  size="large">
+                  <IconButton className="my-btn"data2={wdate[idx]} data1={g} onClick={removegoal} aria-label="delete"  size="large">
                   <DeleteIcon />
                   </IconButton>
                 </div>
