@@ -17,28 +17,28 @@ A Health Connect Application which offers health tracking and instant doctor app
 <b>Meeraj:</b>https://www.credly.com/users/avula-meearj/badges?sort=-state_updated_at&page=1<br/><br/>
 
 <h2><u>Project Folder Structure</u></h2>
-├── frontend (React Application)
-│
-├── backend (FireBase Application)
-|
-├── badges (Team members badge images)
-│
-├── project report
-│   ├── project report.pdf (Project report document)
-│   ├── Flowchart.png
-│   └── Block Diagram.png
-│
-├─ screenshots
-│   └── screenshots.pdf (Screenshots of Health Connect Application in Desktop View)
-│
-└─ Video Demonstration (Solution explaination video)
+├── frontend (React Application)<br/>
+│<br/>
+├── backend (FireBase Application)<br/>
+|<br/>
+├── badges (Team members badge images)<br/>
+│<br/>
+├── project report<br/>
+│   ├── project report.pdf (Project report document)<br/>
+│   ├── Flowchart.png<br/>
+│   └── Block Diagram.png<br/>
+│<br/>
+├─ screenshots<br/>
+│   └── screenshots.pdf (Screenshots of Health Connect Application in Desktop View)<br/>
+│<br/>
+└─ Video Demonstration (Solution explaination video)<br/>
 
 
 <h2><u>How to run project in your system</u></h2>
 <h3>Clone the repo</h3>
 <h2>Run project</h2>
 <ul>
-    <li>cd HealthConnect</li>
+    <li>cd SBSPS-Challenge-9992-HealthConnect-Streamlined-Doctors-Appointment-and-Health-Record-Management</li>
     <li>npm install</li> (or) <li>npm install --legacy-peer-deps</li>
     <li>npm start</li> (or) <li>npm start --legacy-peer-deps</li>
 </ul>
