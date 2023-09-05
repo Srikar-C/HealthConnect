@@ -5,7 +5,7 @@ A Health Connect Application which offers health tracking and instant doctor app
 
 
 <h2><u>Demonstration Video Link</u>
-<h3><a href="https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view">https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view</a></h3>
+<h3><a href="https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view" target="_blank">https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view</a></h3>
 </h2>
 
 <h2><u>Course Completion badges</u></h2>
