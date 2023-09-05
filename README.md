@@ -1,5 +1,6 @@
 <h2><u>HEALTH CONNECT: STREAMLINED DOCTORS APPOINTMENT AND HEALTH RECORD MANAGEMENT</u></h2>
 A Health Connect Application which offers health tracking and instant doctor appointment booking for users.
+This application is accessible online when an user in logged in
 <h5 style="display:flex">Live Website URL: https://ibm-hack456.web.app</h5>
 <h5>⚠️ Please contact us incase live url is not working (deployed services might be down or inactive)</h5>
 
