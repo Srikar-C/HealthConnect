@@ -42,4 +42,4 @@ Clone the repo
     <li>npm start (or) npm start --legacy-peer-deps</li>
 </ul>
 
-<h3>You can visit the application at http://localhost:3000 in the development mode.</h3>
+<h3>You can visit the application at <a href="https://localhost:3000">http://localhost:3000</a> in the development mode.</h3>
