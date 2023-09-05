@@ -38,7 +38,7 @@ A Health Connect Application which offers health tracking and instant doctor app
 Clone the repo
 <h3>Run project</h3>
 <ul>
-    <li style="background-color:grey;color:white">cd SBSPS-Challenge-9992-HealthConnect-Streamlined-Doctors-Appointment-and-Health-Record-Management</li>
+    <li>cd SBSPS-Challenge-9992-HealthConnect-Streamlined-Doctors-Appointment-and-Health-Record-Management</li>
     <li>npm install (or) npm install --legacy-peer-deps</li>
     <li>npm start (or) npm start --legacy-peer-deps</li>
 </ul>
