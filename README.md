@@ -41,3 +41,5 @@ Clone the repo
     <li>npm install (or) npm install --legacy-peer-deps</li>
     <li>npm start (or) npm start --legacy-peer-deps</li>
 </ul>
+
+<h3>You can visit the application at http://localhost:3000 in the development mode.</h3>
