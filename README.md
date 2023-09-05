@@ -5,7 +5,7 @@ A Health Connect Application which offers health tracking and instant doctor app
 
 
 <h2><u>Demonstration Video Link</u>
-<a href="https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view">https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view</a>
+<h3><a href="https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view">https://drive.google.com/file/d/1mmw83oCGdTaS5iYrM0S19tcSA3x3bs4m/view</a></h3>
 </h2>
 
 <h2><u>Course Completion badges</u></h2>
@@ -35,10 +35,10 @@ A Health Connect Application which offers health tracking and instant doctor app
 
 
 <h2><u>How to run project in your system</u></h2>
-<h3>Clone the repo</h3>
+<h2>Clone the repo</h2>
 <h2>Run project</h2>
 <ul>
     <li>cd HealthConnect</li>
-    <li>npm install</li> (or) <li>npm install --legacy-peer-deps</li>
-    <li>npm start</li> (or) <li>npm start --legacy-peer-deps</li>
+    <li>npm install (or) npm install --legacy-peer-deps</li>
+    <li>npm start (or) npm start --legacy-peer-deps</li>
 </ul>
