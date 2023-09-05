@@ -35,10 +35,9 @@ A Health Connect Application which offers health tracking and instant doctor app
 
 
 <h2><u>How to run project in your system</u></h2>
-
+Clone the repo
+<h3>Run project</h3>
 <ul>
-    <li>Clone the repo</li>
-    <li>Run project</li>
     <li>cd HealthConnect</li>
     <li>npm install (or) npm install --legacy-peer-deps</li>
     <li>npm start (or) npm start --legacy-peer-deps</li>
