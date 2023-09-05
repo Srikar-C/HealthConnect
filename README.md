@@ -41,5 +41,6 @@ Clone the repo
     <li>npm install (or) npm install --legacy-peer-deps</li>
     <li>npm start (or) npm start --legacy-peer-deps</li>
 </ul>
+<h3>Sign in/create an account first to access all the features present in the application</h3>
 
 <h3>You can visit the application at <a href="https://localhost:3000">http://localhost:3000</a> in the development mode.</h3>
