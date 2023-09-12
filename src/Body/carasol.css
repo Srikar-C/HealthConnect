@@ -3,16 +3,18 @@
     height:500px;
 }
 
-@media (width<=450px){
+@media only screen and (max-width:768px) {
     .d-block{
         height: 300px;
         width: 450px;
     }
     .sub-slides h4{
-        font-size: 12px;
+        font-size: 50%;
+        margin-bottom: 20%;
     }
     .sub-slides h2{
-        font-size: 16px;
+        font-size: 70%;
+        margin-bottom: 10%;
     }
 }
 
