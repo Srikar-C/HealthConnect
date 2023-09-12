@@ -40,6 +40,9 @@
   display: flex;
   margin-bottom: 3%;
 }
+.presc-comment h1{
+  font-size: 20px;
+}
 .presc-comment label{
   width: 20%;
   text-align: center;
@@ -111,7 +114,7 @@
   box-shadow: inset 1px 1px 5px grey;
   opacity: 20%;
 }
-@media (width<=550px){
+@media only screen and (max-width:768px) {
   .presc-main h3{
     font-size: 12px;
   }
