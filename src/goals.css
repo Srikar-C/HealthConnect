@@ -73,7 +73,7 @@
     padding:0;
   }
 
-  @media (width<=550px){
+  @media only screen and (max-width:768px) {
     .form{
       width:300px;
     }
