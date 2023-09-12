@@ -134,10 +134,7 @@
   .records-map{
     display: flex;
     flex-direction: column;
-  }
-  .user-card{
-    width: 100%;
-    margin-left: -20px;
+    margin-left: -10%;
   }
   
 }
