@@ -55,7 +55,7 @@
     border-radius: 50px;
 }
 
-@media (width<=420px){
+@media only screen and (max-width:768px) {
     .foot{
         width: fit-screen;
     }
