@@ -24,7 +24,7 @@ table, tr,th,td{
   background-color: #BB2525;
 }
 
-@media (width<=450px){
+@media only screen and (max-width:768px) {
   table{
     width: 80%;
     height: fit-content;
