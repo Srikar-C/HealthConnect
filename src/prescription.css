@@ -1,8 +1,6 @@
 .presc-main{
   display: flex;
   flex-direction: column;
-  height:5%;
- 
   background:linear-gradient(18deg,#E6FFFD,#AEE2FF,#ACBCFF,#B799FF);
 }
 
@@ -25,8 +23,6 @@
   margin-right: auto;
   align-items: center;
   justify-content: center;
-
- 
 }
 .presc-form input{
   align-items: center;
@@ -58,14 +54,12 @@
 }
 .presc-map{
   width: fit-content;
-  height: 30%;
   margin-left: 18%;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
 }
 .container {
-
   position: relative;
   align-items: center;
   text-align: center;
@@ -78,15 +72,14 @@
   background-color: white;
   border-radius: 20px;
   margin: 20px;
+  width: fit-content;
+  height: 500px;
 }
 
-.container img {
-  width: 300px;
-  height: 300px;
+.user-img {
   margin-top: 5%;
   border: 20px;
   border-radius: 20px;
-  margin: 20px;
 }
 
 .container .btn {
@@ -124,7 +117,6 @@
     justify-content: center;
     padding-left: 50%;
     text-align: center;
-   
   }
   .presc-comment{
     display: flex;
@@ -133,10 +125,6 @@
   .presc-map{
     display: flex;
     flex-direction: column;
+    margin-left: 3%;
   }
-  .user-card{
-    width: 100%;
-    margin-left: -20px;
-  }
-  
 }
