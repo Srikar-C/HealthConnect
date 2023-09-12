@@ -74,7 +74,7 @@ Link{
   display: none;
 }
 
-@media (width<=570px) {
+@media only screen and (max-width:768px) {
   .navright-user{
     flex-wrap: wrap;
     display: flex;
