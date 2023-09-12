@@ -40,7 +40,7 @@
     width:fit-content;
     padding:20px;
 }
-@media (width<=600px){
+@media only screen and (max-width:768px) {
     .profile-details{
         display: flex;
         flex-direction: column;
@@ -67,10 +67,5 @@
     }
     .booked-slots h1{
         margin-left: -200px;
-    }
-}
-@media (width<=290px) and(width<=315px){
-    .profile-slot{
-        width: 300px;
     }
 }
