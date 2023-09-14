@@ -84,4 +84,7 @@
     .note{
       width: 350px;
     }
+    .card-wrapper{
+      width: 85%;
+    }
   }
